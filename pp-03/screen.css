@@ -30,38 +30,36 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 #content {
   display: flex;
-  flex-direction: column-reverse;
-  height: 300vw;
+  flex-direction: column;
 }
 
 #three,
 #two,
 #one {
-
+  flex: 1 100%;
+  height: 100vw;
 }
 
 #three {
-  width: 100vw;
-  height: 100vw;
-  margin: auto;
+order: 3;
 }
 
 #two {
-    width: 100vw;
-    height: 100vw;
-    margin: auto;
+order: 2;
 }
 
 #one {
-  width: 100vw;
-  height: 100vw;
-  margin: auto;
+order: 1;
 }
 
 @media screen and (min-width: 600px) {
-
+  #one, #two{
+    flex: 1 auto;
+  }
 }
 
 @media screen and (min-width: 800px) {
-
+ #one{order: 1;}
+ #two{order: 2;}
+ #three{order: 3;}
 }
