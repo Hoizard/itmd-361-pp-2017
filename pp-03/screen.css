@@ -41,14 +41,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 #three {
-
+  width: 100px;
+  height: 100px;
+  margin: auto;
 }
 
 #two {
+  width: 100px;
+  height: 100px;
+  margin: auto;
 
 }
 
 #one {
+  width: 100px;
+  height: 100px;
+  margin: auto;
 
 }
 
