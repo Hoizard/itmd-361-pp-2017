@@ -31,7 +31,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #content {
   display: flex;
   flex-direction: column-reverse;
-  height: 300px;
+  height: 300vw;
 }
 
 #three,
@@ -41,23 +41,21 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 #three {
-  width: 100px;
-  height: 100px;
+  width: 100vw;
+  height: 100vw;
   margin: auto;
 }
 
 #two {
-  width: 100px;
-  height: 100px;
-  margin: auto;
-
+    width: 100vw;
+    height: 100vw;
+    margin: auto;
 }
 
 #one {
-  width: 100px;
-  height: 100px;
+  width: 100vw;
+  height: 100vw;
   margin: auto;
-
 }
 
 @media screen and (min-width: 600px) {
