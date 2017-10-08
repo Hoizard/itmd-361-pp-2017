@@ -55,10 +55,17 @@ order: 1;
 @media screen and (min-width: 600px) {
   #one, #two{
     flex: 1 auto;
+    height: 50vw;
   }
 }
 
 @media screen and (min-width: 800px) {
+  #one, #two, #three{
+    height: 50vw;
+  }
+  #three{
+    flex: 1 auto;
+  }
  #one{order: 1;}
  #two{order: 2;}
  #three{order: 3;}
