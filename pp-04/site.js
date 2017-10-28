@@ -9,6 +9,11 @@ function double(num) {
   return x;
 }
 
+var multiplyTwo = function(a, b){
+  return a * b;
+}
+console.log(multiplyTwo(2, 5));
+
 double(6);
 console.log('The value of x is:', x, 'It should be 5.');
 
